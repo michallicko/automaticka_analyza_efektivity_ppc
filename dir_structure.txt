@@ -1,0 +1,54 @@
+automaticka_analyza_efektivity_ppc/
+└── src
+    └── main
+        ├── java
+        │   └── cz
+        │       └── sortivo
+        │           └── reporting
+        │               ├── annotation
+        │               │   ├── StatField.java
+        │               │   └── StatIgnored.java
+        │               ├── controller
+        │               │   ├── AdwordsReportAPI.java
+        │               │   └── ReportingController.java
+        │               ├── dao
+        │               │   ├── StatFieldManager.java
+        │               │   ├── StatsDAO.java
+        │               │   └── StatsLockDAO.java
+        │               ├── exception
+        │               │   ├── StatsCouldNotBeObtainedException.java
+        │               │   └── UnableToObtainStatsException.java
+        │               ├── model
+        │               │   ├── AccountStatObject.java
+        │               │   ├── AdWordsReportState.java
+        │               │   ├── CampaignReportingViewObject.java
+        │               │   ├── ChartVisualisation.java
+        │               │   ├── EntityType.java
+        │               │   ├── SKlikForeignAccount.java
+        │               │   ├── Stat.java
+        │               │   ├── StatFormat.java
+        │               │   ├── StatFormatAdwordsScriptsImpl.java
+        │               │   ├── StatFormatAdwordsScriptsSingleReport.java
+        │               │   ├── StatFormatSklikImpl.java
+        │               │   ├── StatNavigation.java
+        │               │   ├── StatSelectedField.java
+        │               │   └── StatsLock.java
+        │               └── service
+        │                   ├── AdwordsScriptsStatService.java
+        │                   ├── ReportingAccountService.java
+        │                   ├── SklikStatService.java
+        │                   ├── StatCreator.java
+        │                   └── StatService.java
+        └── webapp
+            ├── WEB-INF
+            │   └── jsp
+            │       └── stats
+            │           └── index.jsp
+            ├── css
+            │   └── app
+            │       └── stats.css
+            └── js
+                ├── StatBotExtension.js
+                └── app
+                    ├── statsActions.js
+                    └── statsManipulator.js

@@ -1,0 +1,111 @@
+       div.table {
+             border-collapse:separate;
+             border-spacing:5px;
+        }
+        
+  
+        div.table .th {
+         border: 0;
+        }
+        
+        di.table .tr {
+            clear:both;
+        }
+        
+        .bold{
+            font-weight: bold;
+        }
+        
+        div.table .td .heading{
+            text-align: center;
+            font-size:15px;
+            color: grey;
+        }
+        
+        div.table h4 {
+            clear: both;
+            padding-top: 20px;
+        }
+        
+        div.table .td .number{
+            font-size: 38px;
+            text-align: center;
+            font-weight:bold;
+            line-height: 60px;
+        }
+        
+        div.table .td {
+            padding: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            float:left;
+            width: 270px;
+            height: 100px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        
+        div.table h3 {
+            clear:both;
+            padding-top: 20px;
+        }
+        
+        div.table hr {
+            margin: 40px 0 20px 0;
+            clear: both;
+        }
+        
+        .tab-controls {
+            margin-bottom: -1px;
+        }
+        
+        .tab-controls a {
+            display: block;
+            float:left;
+            padding: 5px 15px;
+            background-color: #EFEFEF;
+            border: 1px solid #AEAEAE;
+        }
+        
+        .tab-controls a:hover {
+            display: block;
+            float:left;
+            padding: 5px 15px;
+
+        }
+        
+        .tab-controls a.selected {
+            border-bottom: 0px;
+            background-color:  #fff;
+            margin-bottom: -1px;
+            padding: 5px 15px 6px 15px;
+            
+        }
+        
+        .wait{
+            text-align: center;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        
+        .tab{
+            border: 1px solid #AEAEAE;
+            display:none;
+            padding: 20px;
+        }
+        
+        .tab.tab-selected{
+            display:block;
+        }
+        
+        .balance-chart {
+            width: 50%;
+        }
+        
+        .cleaner {crear: both;}
+        
+
+        .cleaner{
+            clear:both;
+            }
+        
