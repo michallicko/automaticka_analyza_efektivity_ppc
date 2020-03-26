@@ -35,7 +35,9 @@ import cz.sortivo.templates.AbstractJpaDAO;
 @Repository
 public class StatsDAO extends AbstractJpaDAO<Stat> {
     
-    Logger logger = LoggerFactory.getLogger(StatsDAO.class);
+ 
+
+   Logger logger = LoggerFactory.getLogger(StatsDAO.class);
 
     @Override
     protected Class<Stat> getClazz() {
